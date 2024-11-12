@@ -1,0 +1,12 @@
+.Logo {
+  margin-top: 41px;
+  width: 245px;
+}
+
+.IdTitle {
+  display: flex;
+  margin-left: 15px;
+  font-family: "Pretendard", sans-serif;
+  font-weight: 200;
+  font-size: 25px;
+}
