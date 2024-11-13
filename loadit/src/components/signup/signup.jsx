@@ -13,9 +13,9 @@ const SignUp = () => {
       <div className="SIdTitle">아이디</div>
       <input className="SIdInput" />
       <div className="SPwTitle">비밀번호</div>
-      <input className="SPwInput" />
+      <input className="SPwInput" type="password" />
       <div className="SPwCheckTitle">비밀번호 확인</div>
-      <input className="SPwCheckInput" />
+      <input className="SPwCheckInput" type="password" />
       <div>
         <button className="SignUpButton">회원가입</button>
       </div>

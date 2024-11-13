@@ -11,7 +11,7 @@ const Login = () => {
       <div className="LIdTitle">아이디</div>
       <input className="LIdInput" />
       <div className="LPwTitle">비밀번호</div>
-      <input className="LPwInput" />
+      <input className="LPwInput" type="password" />
       <div>
         <button className="LoginButton">로그인</button>
       </div>
