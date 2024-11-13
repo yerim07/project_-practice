@@ -1,15 +1,23 @@
 import React from "react";
 import "./login.css";
-import Logo from "../../assets/img/LoadiT.jpg";
+import LLogo from "../../assets/img/LoadiT.jpg";
+import { useNavigate } from "react-router-dom";
 
 const Login = () => {
+  const navigate = useNavigate();
   return (
     <div>
-      <img src={Logo} className="Logo" />
-      <div className="IdTitle">아이디</div>
-      <input className="IdInput" />
-      <div className="PwTitle">비밀번호</div>
-      <input className="PwInput" />
+      <img src={LLogo} className="LLogo" />
+      <div className="LIdTitle">아이디</div>
+      <input className="LIdInput" />
+      <div className="LPwTitle">비밀번호</div>
+      <input className="LPwInput" />
+      <div>
+        <button className="LoginButton">로그인</button>
+      </div>
+      <div className="NavSignUp" onClick={() => navigate("/signup")}>
+        만약 아직 LoadiT의 회원이 아니라면?
+      </div>
     </div>
   );
 };

@@ -1,12 +1,75 @@
-.Logo {
-  margin-top: 41px;
+.LLogo,
+.LIdInput,
+.LPwInput,
+.LoginButton {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.LLogo {
+  margin-top: 95px;
   width: 245px;
 }
 
-.IdTitle {
+.LIdTitle {
   display: flex;
-  margin-left: 15px;
+  margin-left: 470px;
+  margin-top: 105px;
   font-family: "Pretendard", sans-serif;
   font-weight: 200;
   font-size: 25px;
+}
+
+.LIdInput {
+  width: 508px;
+  height: 60px;
+  margin-top: 8px;
+  border-radius: 8px;
+  border: none;
+  background-color: #f2f2f2;
+  padding-left: 20px;
+  font-size: 20px;
+}
+
+.LPwTitle {
+  margin-top: 34px;
+  display: flex;
+  margin-left: 470px;
+  font-family: "Pretendard", sans-serif;
+  font-weight: 200;
+  font-size: 25px;
+}
+
+.LPwInput {
+  width: 508px;
+  height: 60px;
+  margin-top: 8px;
+  border-radius: 8px;
+  border: none;
+  background-color: #f2f2f2;
+  padding-left: 20px;
+  font-size: 20px;
+}
+
+.LoginButton {
+  width: 530.5px;
+  height: 60px;
+  margin-top: 84px;
+  border-radius: 8px;
+  border: none;
+  background-color: #f2be5c;
+  color: #ffffff;
+  padding-left: 20px;
+  font-size: 20px;
+}
+
+.NavSignUp {
+  font-family: "Pretendard", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  color: #0095ff;
+  margin-top: 10px;
+  cursor: pointer;
+  margin-left: 590px;
 }

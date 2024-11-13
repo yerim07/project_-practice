@@ -1,0 +1,117 @@
+.SLogo {
+  margin-top: 41px;
+  width: 245px;
+}
+
+.SNickTitle {
+  display: flex;
+  margin-left: 470px;
+  margin-top: 40px;
+  font-family: "Pretendard", sans-serif;
+  font-weight: 200;
+  font-size: 25px;
+}
+
+.SNickInput {
+  width: 508px;
+  height: 60px;
+  margin-top: 8px;
+  border-radius: 8px;
+  border: none;
+  background-color: #f2f2f2;
+  padding-left: 20px;
+  font-size: 20px;
+}
+
+.SLogo,
+.SNickInput,
+.SIdInput,
+.SPwInput,
+.SPwCheckInput,
+.SignUpButton {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.SIdTitle {
+  display: flex;
+  margin-left: 470px;
+  margin-top: 25px;
+  font-family: "Pretendard", sans-serif;
+  font-weight: 200;
+  font-size: 25px;
+}
+
+.SIdInput {
+  width: 508px;
+  height: 60px;
+  margin-top: 8px;
+  border-radius: 8px;
+  border: none;
+  background-color: #f2f2f2;
+  padding-left: 20px;
+  font-size: 20px;
+}
+
+.SPwTitle {
+  margin-top: 25px;
+  display: flex;
+  margin-left: 470px;
+  font-family: "Pretendard", sans-serif;
+  font-weight: 200;
+  font-size: 25px;
+}
+
+.SPwInput {
+  width: 508px;
+  height: 60px;
+  margin-top: 8px;
+  border-radius: 8px;
+  border: none;
+  background-color: #f2f2f2;
+  padding-left: 20px;
+  font-size: 20px;
+}
+
+.SPwCheckTitle {
+  margin-top: 25px;
+  display: flex;
+  margin-left: 470px;
+  font-family: "Pretendard", sans-serif;
+  font-weight: 200;
+  font-size: 25px;
+}
+
+.SPwCheckInput {
+  width: 508px;
+  height: 60px;
+  margin-top: 8px;
+  border-radius: 8px;
+  border: none;
+  background-color: #f2f2f2;
+  padding-left: 20px;
+  font-size: 20px;
+}
+
+.SignUpButton {
+  width: 530.5px;
+  height: 60px;
+  margin-top: 38px;
+  border-radius: 8px;
+  border: none;
+  background-color: #f2be5c;
+  color: #ffffff;
+  padding-left: 20px;
+  font-size: 20px;
+}
+
+.NavLogin {
+  font-family: "Pretendard", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  color: #0095ff;
+  margin-top: 10px;
+  cursor: pointer;
+  margin-left: 628px;
+}
