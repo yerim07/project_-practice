@@ -1,0 +1,25 @@
+.TodayDate {
+  font-family: "Pretendard", sans-serif;
+  font-weight: 600;
+  font-size: 25px;
+  margin-left: 37px;
+  margin-top: 38px;
+}
+
+.SuppliesField {
+  position: fixed;
+  margin-top: 113px;
+  background-color: #f3f3f3;
+  width: 748px;
+  height: 642px;
+  margin-left: 54px;
+  border-radius: 8px;
+}
+
+.SuppliesTitle {
+  font-family: "Pretendard", sans-serif;
+  font-weight: 400;
+  font-size: 25px;
+  margin-left: 37px;
+  margin-top: 7px;
+}
