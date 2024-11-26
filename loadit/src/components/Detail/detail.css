@@ -1,0 +1,28 @@
+.detailBox {
+  position: fixed;
+  width: 773px;
+  height: 672px;
+  background-color: #f2f2f2;
+  border-radius: 8px;
+  margin-top: 92.5px;
+  margin-left: 320px;
+}
+
+.detailItemTitle,
+.detailDateTitle,
+.detailMemoTitle {
+  margin-left: 37px;
+  font-family: "Pretendard", sans-serif;
+  font-weight: 400;
+  font-size: 25px;
+}
+
+.detailItemTitle {
+  margin-top: 31px;
+}
+
+.detailDateTitle {
+}
+
+.detailMemoTitle {
+}
