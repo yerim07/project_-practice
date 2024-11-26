@@ -1,0 +1,85 @@
+span {
+  color: red;
+}
+
+.allSupplies {
+  position: fixed;
+}
+
+.ContentTitle {
+  font-family: "Pretendard", sans-serif;
+  font-weight: 200;
+  font-size: 25px;
+  margin-left: 332px;
+  margin-top: 87px;
+}
+
+.ContentDate {
+  font-family: "Pretendard", sans-serif;
+  font-weight: 200;
+  font-size: 25px;
+  margin-top: 27px;
+  margin-left: 332px;
+}
+
+.ContentMemo {
+  font-family: "Pretendard", sans-serif;
+  font-weight: 200;
+  font-size: 25px;
+  margin-top: 27px;
+  margin-left: 332px;
+}
+
+.ContentTitleInput {
+  width: 773px;
+  height: 60px;
+  border: none;
+  background-color: #f2f2f2;
+  margin-left: 323px;
+  margin-top: 12px;
+  border-radius: 8px;
+  padding-left: 20px;
+}
+
+.ContentDateInput {
+  width: 755px;
+  height: 63px;
+  font-family: "Pretendard", sans-serif;
+  font-weight: 200;
+  font-size: 25px;
+  border: none;
+  background-color: #f2f2f2;
+  margin-left: 323px;
+  margin-top: 12px;
+  border-radius: 8px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.ContentMemoInput {
+  width: 755px;
+  height: 270px;
+  border: none;
+  margin-left: 323px;
+  margin-top: 12px;
+  background-color: #f2f2f2;
+  border-radius: 8px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+}
+
+.submit {
+  font-family: "Pretendard", sans-serif;
+  font-weight: 600;
+  font-size: 25px;
+  width: 795px;
+  height: 60px;
+  border: none;
+  margin-left: 323px;
+  border-radius: 8px;
+  background-color: #f2be5c;
+  color: #ffffff;
+  margin-top: 33px;
+  cursor: pointer;
+}
