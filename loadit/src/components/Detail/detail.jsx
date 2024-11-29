@@ -1,5 +1,5 @@
 import React from "react";
-import { useParams } from "react-router-dom";
+import { useNavigate, useParams } from "react-router-dom";
 import "./detail.css";
 import Header from "../../hooks/Header/Header";
 
@@ -22,6 +22,7 @@ const data = [
 ];
 
 const Detail = () => {
+  const navigate = useNavigate();
   const { id } = useParams();
   const item = data.find((d) => d.id === parseInt(id));
 
@@ -39,6 +40,12 @@ const Detail = () => {
         <div className="detailDate">{item.date}</div>
         <div className="detailMemoTitle">상세 메모</div>
         <div className="detailMemo">{item.memo || "메모가 없습니다."}</div>
+        <input
+          type="button"
+          value={"준비물 삭제"}
+          className="DeleteButton"
+          onClick={() => navigate("/main")}
+        />
       </div>
     </div>
   );

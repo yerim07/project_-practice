@@ -13,7 +13,9 @@ const Login = () => {
       <div className="LPwTitle">비밀번호</div>
       <input className="LPwInput" type="password" />
       <div>
-        <button className="LoginButton">로그인</button>
+        <button className="LoginButton" onClick={() => navigate("/main")}>
+          로그인
+        </button>
       </div>
       <div className="NavSignUp" onClick={() => navigate("/signup")}>
         만약 아직 LoadiT의 회원이 아니라면?

@@ -21,8 +21,36 @@
   margin-top: 31px;
 }
 
+.detailItem,
+.detailDate,
+.detailMemo {
+  margin-left: 37px;
+  margin-top: 13px;
+  font-family: "Pretendard", sans-serif;
+  font-weight: 200;
+  font-size: 25px;
+}
+
 .detailDateTitle {
+  margin-top: 50px;
 }
 
 .detailMemoTitle {
+  margin-top: 50px;
+}
+
+.DeleteButton {
+  font-family: "Pretendard", sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  color: #fff;
+  background-color: #f2be5c;
+  border: 0;
+  border-radius: 8px;
+  width: 120px;
+  height: 50px;
+  margin-left: 638px;
+  position: fixed;
+  bottom: 40px;
+  cursor: pointer;
 }

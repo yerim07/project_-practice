@@ -17,7 +17,9 @@ const SignUp = () => {
       <div className="SPwCheckTitle">비밀번호 확인</div>
       <input className="SPwCheckInput" type="password" />
       <div>
-        <button className="SignUpButton">회원가입</button>
+        <button className="SignUpButton" onClick={() => navigate("/")}>
+          회원가입
+        </button>
       </div>
       <div className="NavLogin" onClick={() => navigate("/")}>
         이미 LoadiT의 회원이라면?

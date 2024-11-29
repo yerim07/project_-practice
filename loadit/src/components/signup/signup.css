@@ -95,6 +95,7 @@
 }
 
 .SignUpButton {
+  cursor: pointer;
   width: 530.5px;
   height: 60px;
   margin-top: 38px;

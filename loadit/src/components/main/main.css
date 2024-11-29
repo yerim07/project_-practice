@@ -46,7 +46,7 @@
   position: fixed;
   width: 390px;
   background-color: #f2be5c;
-  margin-left: 990px;
+  margin-left: 1100px;
   margin-top: 142px;
 }
 
@@ -54,12 +54,11 @@
 .weatherLocationNow {
   align-items: center;
   position: fixed;
-  margin-top: 142px;
   font-family: "Pretendard", sans-serif;
   font-weight: 400;
   font-size: 15px;
 }
 
 .weatherLocationNow {
-  margin-top: 160px;
+  margin-top: 16px;
 }

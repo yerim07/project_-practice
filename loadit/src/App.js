@@ -2,7 +2,7 @@ import React from "react";
 import { Routes, Route, BrowserRouter } from "react-router-dom";
 import Login from "./components/login/login";
 import SignUp from "./components/signup/signup";
-import Main from "./components/mainpage/main";
+import Main from "./components/main/main";
 import Supplies from "./components/supplies/supplies";
 import Detail from "./components/Detail/detail";
 
